@@ -1,6 +1,9 @@
 console.log('Service Worker: Registered');
 
+// Name of cache to be created
 const pageCache = 'cacheV1';
+
+// Resources to tbe cached
 const urlsToCache = [
     '/',
     '/index.html',
