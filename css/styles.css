@@ -259,6 +259,10 @@ nav h1 a {
   width: 50%;
 }
 
+.inside #map {
+  height: 100%;
+}
+
 .inside #footer {
   bottom: 0;
   width: 100%;
@@ -349,6 +353,10 @@ nav h1 a {
     margin-top: 80px;
     width: 100%;
     position: relative;
+  }
+
+  .inside #map {
+    height: 350px;
   }
 
   #restaurant-container,
