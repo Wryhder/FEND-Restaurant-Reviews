@@ -1,11 +1,10 @@
 /**
- * Common database helper functions.
+ * Common database helper functions
  */
 class DBHelper {
 
   /**
-   * Database URL.
-   * Change this to restaurants.json file location on your server.
+   * Database URL
    */
   static get DATABASE_URL() {
     const port = 443 // Change this to your server port
@@ -14,7 +13,7 @@ class DBHelper {
   }
 
   /**
-   * Fetch all restaurants.
+   * Fetch all restaurants
    */
   static fetchRestaurants(callback) {
     let xhr = new XMLHttpRequest();
@@ -36,7 +35,7 @@ class DBHelper {
    * Fetch a restaurant by its ID.
    */
   static fetchRestaurantById(id, callback) {
-    // fetch all restaurants with proper error handling.
+    // Fetch all restaurants with proper error handling.
     DBHelper.fetchRestaurants((error, restaurants) => {
       if (error) {
         callback(error, null);
@@ -167,16 +166,6 @@ class DBHelper {
       marker.addTo(newMap);
     return marker;
   } 
-  /* static mapMarkerForRestaurant(restaurant, map) {
-    const marker = new google.maps.Marker({
-      position: restaurant.latlng,
-      title: restaurant.name,
-      url: DBHelper.urlForRestaurant(restaurant),
-      map: map,
-      animation: google.maps.Animation.DROP}
-    );
-    return marker;
-  } */
 
 }
 
