@@ -368,12 +368,6 @@ nav h1 a {
     width: 100%;
   }
 
-  header, #breadcrumb {
-    z-index: 1001;
-  }
-}
-
-@media screen and (max-width: 521px) {
   #breadcrumb {
     width: 100%;
   }
