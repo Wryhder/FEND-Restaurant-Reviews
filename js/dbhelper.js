@@ -9,8 +9,8 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 443 // Change this to your server port
-    //return `http://localhost:${port}/data/restaurants.json`;
-    return `https://github.com:${port}/Wryhder/FEND-Restaurant-Reviews-App/blob/master/data/restaurants.json`;
+    return `/data/restaurants.json`;
+    // return `https://github.com:${port}/Wryhder/FEND-Restaurant-Reviews-App/blob/master/data/restaurants.json`;
   }
 
   /**
