@@ -259,12 +259,6 @@ nav h1 a {
   width: 50%;
 }
 
-.inside #map {
-  background-color: #ccc;
-  height: 100%;
-  width: 100%;
-}
-
 .inside #footer {
   bottom: 0;
   position: absolute;
