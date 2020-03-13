@@ -1,5 +1,3 @@
-import { RESTAURANT_DATA_URL} from './constants';
-
 /**
  * Common database helper functions
  */
