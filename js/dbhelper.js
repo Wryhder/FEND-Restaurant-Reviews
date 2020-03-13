@@ -1,3 +1,5 @@
+import { RESTAURANT_DATA_URL} from './constants';
+
 /**
  * Common database helper functions
  */
@@ -7,9 +9,7 @@ class DBHelper {
    * Database URL
    */
   static get DATABASE_URL() {
-    const port = 5500 // Change this to your server port
-    return `http://localhost:${port}/data/restaurants.json`;
-    // return `https://github.com:${port}/Wryhder/FEND-Restaurant-Reviews-App/blob/master/data/restaurants.json`;
+    return RESTAURANT_DATA_URL;
   }
 
   /**
