@@ -5,24 +5,24 @@ const pageCache = 'cacheV1';
 
 // Resources to be cached
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/restaurant.html',
-    '/css/styles.css',
-    '/js/dbhelper.js',
-    '/js/main.js',
-    '/js/restaurant_info.js',
-    '/data/restaurants.json',
-    '/img/1.jpg',
-    '/img/2.jpg',
-    '/img/3.jpg',
-    '/img/4.jpg',
-    '/img/5.jpg',
-    '/img/6.jpg',
-    '/img/7.jpg',
-    '/img/8.jpg',
-    '/img/9.jpg',
-    '/img/10.jpg'
+    '/FEND-Restaurant-Reviews-App',
+    '/FEND-Restaurant-Reviews-App/index.html',
+    '/FEND-Restaurant-Reviews-App/restaurant.html',
+    '/FEND-Restaurant-Reviews-App/css/styles.css',
+    '/FEND-Restaurant-Reviews-App/js/dbhelper.js',
+    '/FEND-Restaurant-Reviews-App/js/main.js',
+    '/FEND-Restaurant-Reviews-App/js/restaurant_info.js',
+    '/FEND-Restaurant-Reviews-App/data/restaurants.json',
+    '/FEND-Restaurant-Reviews-App/img/1.jpg',
+    '/FEND-Restaurant-Reviews-App/img/2.jpg',
+    '/FEND-Restaurant-Reviews-App/img/3.jpg',
+    '/FEND-Restaurant-Reviews-App/img/4.jpg',
+    '/FEND-Restaurant-Reviews-App/img/5.jpg',
+    '/FEND-Restaurant-Reviews-App/img/6.jpg',
+    '/FEND-Restaurant-Reviews-App/img/7.jpg',
+    '/FEND-Restaurant-Reviews-App/img/8.jpg',
+    '/FEND-Restaurant-Reviews-App/img/9.jpg',
+    '/FEND-Restaurant-Reviews-App/img/10.jpg'
 ];
 
 self.addEventListener('install', function(event) {
