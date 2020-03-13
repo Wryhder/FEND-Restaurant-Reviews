@@ -28,5 +28,5 @@ With your server running, visit the site: http://localhost:8000
 
 **Extra Note 2:**
 
-For any issues with your local server accessing the restaurant data, `/data/restaurants.json`, make sure the database url and port, as specified in `/js/constants.js`, is modified to fit your local server configuration.
+For any issues with your local server accessing the restaurant data, `/data/restaurants.json`, make sure the database url and port, as specified in `/js/dbhelper.js` (lines 9 - 13, approximately), is modified to fit your local server configuration.
 
